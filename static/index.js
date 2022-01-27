@@ -124,7 +124,7 @@
     w.gameRestart = function() {
         _gameBBList = [];
         _gameBBListIndex = 0;
-        _gameScore = 99999;
+        _gameScore = 0;
         _gameOver = false;
         _gameStart = false;
         _gameTimeNum = 20;
