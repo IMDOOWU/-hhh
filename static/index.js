@@ -124,10 +124,10 @@
     w.gameRestart = function() {
         _gameBBList = [];
         _gameBBListIndex = 0;
-        _gameScore = 0;
+        _gameScore = 99999;
         _gameOver = false;
         _gameStart = false;
-        _gameTimeNum = 999999999;
+        _gameTimeNum = 20;
         GameTimeLayer.innerHTML = creatTimeText(_gameTimeNum);
         countBlockSize();
         refreshGameLayer(GameLayer[0]);
